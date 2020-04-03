@@ -1,0 +1,60 @@
+{
+  "name": "Eunmi_blog",
+  "private": true,
+  "description": "Eunmi의 블로그그",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "post": "node cli/post.js",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier src/**/*.js --write"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.5",
+    "@emotion/styled": "^10.0.5",
+    "algoliasearch": "^3.32.0",
+    "chalk": "^2.4.2",
+    "date-fns": "^1.30.1",
+    "dotenv": "^6.2.0",
+    "emotion-theming": "^10.0.27",
+    "gatsby": "^2.18.21",
+    "gatsby-plugin-emotion": "^4.0.1",
+    "gatsby-plugin-google-analytics": "^2.0.20",
+    "gatsby-plugin-manifest": "^2.0.23",
+    "gatsby-plugin-react-helmet": "^3.0.5",
+    "gatsby-plugin-typography": "^2.2.4",
+    "gatsby-remark-prismjs": "^3.1.4",
+    "gatsby-source-filesystem": "^2.0.24",
+    "gatsby-transformer-json": "^2.1.6",
+    "gatsby-transformer-remark": "^2.1.17",
+    "gray-matter": "^4.0.2",
+    "inquirer": "^6.3.1",
+    "inquirer-autocomplete-prompt": "^1.0.1",
+    "lodash": "^4.17.15",
+    "ora": "^3.4.0",
+    "prismjs": "^1.15.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-instantsearch-dom": "^6.1.0",
+    "react-typography": "^0.16.18",
+    "typography": "^0.16.18",
+    "typography-theme-sutro": "^0.16.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "devDependencies": {
+    "eslint-config-react-app": "^5.1.0",
+    "gatsby-remark-code-titles": "^1.1.0"
+  }
+}
