@@ -118,12 +118,12 @@ class Header extends Component {
                 <div css={headerOrFooter}>{this.renderLinks()}</div>
                 <div />
               </div>
-              <button css={icon} onClick={this.handleOpenSearch}>
+              {/* <button css={icon} onClick={this.handleOpenSearch}>
                 <span role="img" aria-label="search">
                   🔍
                 </span>
               </button>
-              <Search open={openSearch} handleClose={this.handleCloseSearch} />
+              <Search open={openSearch} handleClose={this.handleCloseSearch} /> */}
             </div>
           );
         }}

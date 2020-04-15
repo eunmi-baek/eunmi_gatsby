@@ -5,10 +5,10 @@ module.exports = {
     url: 'https://Eunmi.com',
     favicon: '/images/favicon.ico',
     image: '/images/deadpool.jpg',
-    repository: 'https://github.com/Eunmi/gatsby-site',
+    repository: 'https://github.com/eunmi-baek/my-gatsby',
     profile: {
-      email: 'mailto:tmqps78@gmail.com',
-      github: 'https://github.com/Eunmi',
+      email: 'mailto:eunmi.dev@gmail.com',
+      github: 'https://github.com/eunmi-baek',
     },
   },
   plugins: [

@@ -7,7 +7,7 @@ const info = css`
 const tagList = css`
   margin-right: 0;
 `;
-const PostInfo = ({ timeToRead, date, tags }) => (
+const PostInfo = ({ date, tags }) => (
   <>
     {tags && (
       <div css={info}>
@@ -15,8 +15,7 @@ const PostInfo = ({ timeToRead, date, tags }) => (
       </div>
     )}
     <span css={info}>{date}</span>
-    {` · `}
-    <span css={info}>{timeToRead} 분</span>
+
   </>
 );
 
