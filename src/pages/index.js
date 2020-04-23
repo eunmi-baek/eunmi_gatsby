@@ -31,8 +31,14 @@ const linkContainer = css`
   margin: 2rem 0;
   text-align: center;
 `;
+const name = css`
+margin-left: 10px;
+`
 
+// data가 뿌려지는 블로그글들 PostList에 edges라는 props로 전달 
+// 근데 data는 어디서 나오는거지..?
 export default ({ data }) => {
+  console.log(data)
   const { edges: postEdges } = data.posts;
   // const { edges: projectEdges } = data.projects;
   return (
@@ -42,12 +48,11 @@ export default ({ data }) => {
         <div css={profile}>
           <div css={mainTitle}>
             <Avatar css={avatar} />
-            <h1>Eunmi</h1>
+            <h1 css={name}>Eunmi</h1>
           </div>
           <div>
             <p>
-              안녕하세요. 백은미입니다. <br />
-              공부하며 배우는 것들을 작성 중입니다.
+            안녕하세요 백은미입니다.
             </p>
           </div>
         </div>

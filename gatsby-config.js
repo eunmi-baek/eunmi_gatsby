@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: 'Eunmi',
-    description: '안녕하세요. 이태희입니다. 공부하며 배우는 것들을 작성 중입니다.',
-    url: 'https://Eunmi.com',
+    description: '안녕하세요.',
+    url: 'https://eunmi.com',
     favicon: '/images/favicon.ico',
     image: '/images/deadpool.jpg',
-    repository: 'https://github.com/eunmi-baek/my-gatsby',
+    repository: 'https://github.com/Godsenal/gatsby-site',
     profile: {
       email: 'mailto:eunmi.dev@gmail.com',
       github: 'https://github.com/eunmi-baek',
@@ -23,8 +23,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Eunmi`,
-        short_name: `Eunmi`,
+        name: `Godsenal`,
+        short_name: `Godsenal`,
         start_url: `/`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display

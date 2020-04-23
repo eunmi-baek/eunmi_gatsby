@@ -1,6 +1,6 @@
-# Eunmi's blog
+# Godsenal's blog
 
-Eunmi의 블로그 입니다.
+Godsenal의 블로그 입니다.
 
 Gatsby를 통해 만들었습니당.
 

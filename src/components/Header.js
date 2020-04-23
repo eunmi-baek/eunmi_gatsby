@@ -25,11 +25,11 @@ const menu = css`
   flex: 1;
   text-align: right;
 `;
-const icon = css`
-  border: none;
-  outline: none;
-  cursor: pointer;
-`;
+// const search = css`
+//   border: none;
+//   outline: none;
+//   cursor: pointer;
+// `;
 const link = css`
   margin-right: 20px;
 `;
@@ -84,11 +84,11 @@ class Header extends Component {
       <CustomLink to="/blog" css={link}>
         Blog
       </CustomLink>
-      {/* <CustomLink to="/project" css={link}>
-        Project
-      </CustomLink> */}
       <CustomLink to="/categories" css={link}>
         Categories
+      </CustomLink>
+      <CustomLink to="/project" css={link}>
+        Project
       </CustomLink>
       <CustomLink to="/tags" css={link}>
         Tags
@@ -118,7 +118,7 @@ class Header extends Component {
                 <div css={headerOrFooter}>{this.renderLinks()}</div>
                 <div />
               </div>
-              {/* <button css={icon} onClick={this.handleOpenSearch}>
+              {/* <button css={search} onClick={this.handleOpenSearch}>
                 <span role="img" aria-label="search">
                   🔍
                 </span>
