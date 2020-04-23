@@ -1,8 +1,4 @@
-# Godsenal's blog
-
-Godsenal의 블로그 입니다.
-
-Gatsby를 통해 만들었습니당.
+# eunmi's blog
 
 ## 글 작성하기
 
